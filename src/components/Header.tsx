@@ -1,17 +1,24 @@
+import Image from "next/image";
+
 export function Header() {
   return (
     <header className="border-b border-white/10 bg-[#0e0e0e]/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#ff444f] text-lg font-bold text-white">
-            D
-          </div>
+          <Image
+            src="/sizeright-logo.png"
+            alt="SizeRight logo"
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-lg"
+            priority
+          />
           <div>
             <h1 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-              Deriv Risk Calculator
+              SizeRight
             </h1>
             <p className="text-xs text-zinc-400 sm:text-sm">
-              Lot size &amp; position risk for Deriv pairs
+              Lot size &amp; risk calculator for Deriv
             </p>
           </div>
         </div>

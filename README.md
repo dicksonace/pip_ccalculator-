@@ -1,6 +1,8 @@
-# Deriv Risk Calculator
+# SizeRight
 
-Lot size and position risk calculator for [Deriv](https://deriv.com) forex and synthetic indices. Built with Next.js, React, and TypeScript.
+Lot size and risk calculator for [Deriv](https://deriv.com) forex and synthetic indices. Get the right position size every time.
+
+Built with Next.js, React, and TypeScript.
 
 ## Features
 

@@ -13,9 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Deriv Risk Calculator | Lot Size & Position Sizing",
+  title: "SizeRight | Lot Size & Risk Calculator",
   description:
-    "Calculate recommended lot size, risk amount, margin, and risk-reward for Deriv forex and synthetic indices.",
+    "Calculate the right lot size for Deriv forex and synthetic indices. Risk-based position sizing made simple.",
+  icons: {
+    icon: "/sizeright-logo.png",
+    apple: "/sizeright-logo.png",
+  },
 };
 
 export default function RootLayout({
